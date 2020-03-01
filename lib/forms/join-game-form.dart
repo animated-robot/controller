@@ -12,8 +12,8 @@ class JoinGameForm extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    TextEditingController sessionCodeController = new TextEditingController(text: 'S31C');
-    TextEditingController usernameController = new TextEditingController(text: 'Vornian');
+    TextEditingController sessionCodeController = new TextEditingController(text: '');
+    TextEditingController usernameController = new TextEditingController(text: '');
 
     return Form(
       key: _formKey,

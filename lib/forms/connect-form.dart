@@ -13,7 +13,7 @@ class ConnectForm extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    TextEditingController addressController = new TextEditingController(text: 'http://192.168.42.43:8080');
+    TextEditingController addressController = new TextEditingController(text: 'http://191.252.184.102:8080');
     bool sending = false;
 
     return Form(
